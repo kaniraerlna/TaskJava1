@@ -3,17 +3,12 @@ package taskjava;
 
 
 public class Biodata {
-    private String fullName; 
-    private String placeOfBirth;
-    private String dateOfBirth;
-    private String hobby;
-    private String zodiac; 
-    private String favoriteFood; 
-    private String goals;
+    private String fullName, placeOfBirth, dateOfBirth, hobby, zodiac, 
+        favoriteFood, goals;
     
     // constructor w/ parameters
     Biodata(String fullName, String placeOfBirth, String dateOfBirth, String hobby,
-            String zodiac, String favoriteFood, String goals){
+         String zodiac, String favoriteFood, String goals){
         this.fullName = fullName;
         this.placeOfBirth = placeOfBirth;
         this.dateOfBirth = dateOfBirth;
@@ -22,6 +17,17 @@ public class Biodata {
         this.favoriteFood = favoriteFood;
         this.goals = goals;
     }
+
+    // constructor w/o parameters
+//    Biodata (){
+//        fullName = "Kanira";
+//        placeOfBirth = "Jakarta";
+//        dateOfBirth = "27 August 2003";
+//        hobby = "Scrolling my phone";
+//        zodiac = "Virgo";
+//        favoriteFood = "Katsu toji";
+//        goals = "...";
+//    }
 
     // getter
     public String getFullName(){
